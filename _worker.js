@@ -57,7 +57,7 @@ export default {
 							},
 						});
 					case '/connect': // for test connect to cf socket
-						const [hostname, port] = ['cloudflare.com', '80'];
+						const [hostname, port] = ['cloudflare.com', '443'];
 						console.log(`Connecting to ${hostname}:${port}...`);
 
 						try {
